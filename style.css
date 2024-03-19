@@ -1,0 +1,44 @@
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+.bg_heart {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-image: url("https://wallpapers.com/images/featured/love-cute-couple-pictures-hdfara8apfipir4w.jpg");
+  background-size: 100vh 100vh;
+  background-size: cover;
+  z-index: -1;
+  animation: untoldcoding 180s infinite ease-in-out;
+}
+
+@keyframes untoldcoding {
+  0% {
+    background-image: url("https://th.bing.com/th/id/OIP._Yb7b7O4xP0sEKtUbjSo2AAAAA?pid=ImgDet&w=188&h=333&c=7&dpr=1.5");
+  }
+  25% {
+    background-image: url("https://wallpapers.com/images/high/aesthetic-couple-in-wavy-sea-w351lfp2q0zspz4w.webp");
+  }
+  50% {
+    background-image: url("https://th.bing.com/th/id/OIP.W7fiqgU5DirkgNdbh3IdcQHaEo?w=338&h=180&c=7&r=0&o=5&cb=10&dpr=1.5&pid=1.7");
+  }
+  80% {
+    background-image: url("https://th.bing.com/th/id/OIP.J2_JZXCqjUFXiO1m3-PivAHaEK?w=333&h=187&c=7&r=0&o=5&cb=10&dpr=1.5&pid=1.7");
+  }
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
